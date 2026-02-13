@@ -1,0 +1,10 @@
+# src/config.py
+DATA_DIR = "data"
+VECTOR_STORE_PATH = f"{DATA_DIR}/vector_store.pkl"
+DB_URL = f"sqlite:///{DATA_DIR}/memory.db"
+RETRIEVE_K = 3
+FUZZY_THRESHOLD = 0.82
+ACTIVE_MEMORY_LIMIT = 2000
+RECENCY_HALF_LIFE = 200.0
+TOKEN_BUDGET = 512
+EMBED_DIM = 768
